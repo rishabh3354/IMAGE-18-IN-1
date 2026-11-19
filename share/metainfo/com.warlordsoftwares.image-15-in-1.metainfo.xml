@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>com.warlordsoftwares.image-15-in-1</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary=https://github.com/rishabh3354/IMAGE-15-IN-1/blob/main/share/license/LICENSE</project_license>
+	<developer id="com.warlordsoftwares">
+		<name translate="no">Warlord Softwares</name>
+	</developer>
+	<branding>
+		<color type="primary" scheme_preference="light">#E6EEFD</color>
+		<color type="primary" scheme_preference="dark">#1C3A73</color>
+	</branding>
+	<name>Image 15-in-1</name>
+	<summary>15 image tools that work offline</summary>
+	<summary xml:lang="de">15 Bildwerkzeuge, die offline funktionieren</summary>
+	<summary xml:lang="es">15 herramientas de imagen sin conexión</summary>
+	<summary xml:lang="fr">15 outils d’image hors ligne</summary>
+	<summary xml:lang="it">15 strumenti per immagini offline</summary>
+	<summary xml:lang="pt_BR">15 ferramentas de imagem offline</summary>
+	<summary xml:lang="nl">15 beeldhulpmiddelen die offline werken</summary>
+	<summary xml:lang="sv">15 bildverktyg som fungerar offline</summary>
+	<summary xml:lang="pl">15 narzędzi do obrazów działających offline</summary>
+	<summary xml:lang="ru">15 инструментов для изображений без интернета</summary>
+	<summary xml:lang="uk">15 інструментів для зображень без інтернету</summary>
+	<summary xml:lang="tr">Çevrimdışı çalışan 15 görüntü aracı</summary>
+	<summary xml:lang="id">15 alat gambar yang bekerja offline</summary>
+	<summary xml:lang="vi">15 công cụ ảnh hoạt động ngoại tuyến</summary>
+	<summary xml:lang="hi">ऑफ़लाइन चलने वाले 15 इमेज टूल</summary>
+	<summary xml:lang="ja">オフラインで使える 15 の画像ツール</summary>
+	<summary xml:lang="ko">오프라인에서 쓰는 15가지 이미지 도구</summary>
+	<summary xml:lang="zh_CN">15 款离线可用的图片工具</summary>
+	<summary xml:lang="th">เครื่องมือภาพ 15 อย่างที่ใช้งานแบบออฟไลน์ได้</summary>
+	<summary xml:lang="ar">15 أداة للصور تعمل دون اتصال</summary>
+	<description>
+		<p>Image 15-in-1 is an all-in-one image editor and converter. Compress, resize, crop and convert images, upscale photos and remove backgrounds with AI, blur faces and strip location data – 15 image tools in one desktop app. Your photos are processed on this computer and never uploaded.</p>
+		<p xml:lang="de">Image 15-in-1 ist ein All-in-One-Bildeditor und -Konverter. Bilder komprimieren, skalieren, zuschneiden und umwandeln, Fotos mit KI hochskalieren und Hintergründe entfernen, Gesichter unkenntlich machen und Standortdaten löschen – 15 Bildwerkzeuge in einer Desktop-App. Ihre Fotos werden auf diesem Computer verarbeitet und nie hochgeladen.</p>
+		<p xml:lang="es">Image 15-in-1 es un editor y conversor de imágenes todo en uno. Comprime, redimensiona, recorta y convierte imágenes, amplía fotos y quita fondos con IA, difumina caras y borra los datos de ubicación: 15 herramientas de imagen en una sola aplicación de escritorio. Tus fotos se procesan en este ordenador y nunca se suben.</p>
+		<p xml:lang="fr">Image 15-in-1 est un éditeur et convertisseur d’images tout-en-un. Compressez, redimensionnez, recadrez et convertissez des images, agrandissez des photos et supprimez l’arrière-plan grâce à l’IA, floutez les visages et effacez les données de localisation : 15 outils d’image dans une seule application de bureau. Vos photos sont traitées sur cet ordinateur et ne sont jamais envoyées.</p>
+		<p xml:lang="it">Image 15-in-1 è un editor e convertitore di immagini tutto in uno. Comprimi, ridimensiona, ritaglia e converti immagini, ingrandisci foto e rimuovi lo sfondo con l’IA, sfoca i volti e cancella i dati sulla posizione: 15 strumenti per immagini in un’unica app desktop. Le tue foto vengono elaborate su questo computer e non vengono mai caricate.</p>
+		<p xml:lang="pt_BR">O Image 15-in-1 é um editor e conversor de imagens tudo em um. Comprima, redimensione, recorte e converta imagens, amplie fotos e remova fundos com IA, desfoque rostos e apague dados de localização: 15 ferramentas de imagem em um só aplicativo para computador. Suas fotos são processadas neste computador e nunca são enviadas.</p>
+		<p xml:lang="nl">Image 15-in-1 is een alles-in-één beeldeditor en -converter. Comprimeer, verklein, snijd bij en zet afbeeldingen om, vergroot foto’s en verwijder achtergronden met AI, vervaag gezichten en wis locatiegegevens: 15 beeldhulpmiddelen in één desktop-app. Je foto’s worden op deze computer verwerkt en nooit geüpload.</p>
+		<p xml:lang="sv">Image 15-in-1 är en allt-i-ett-bildredigerare och -konverterare. Komprimera, ändra storlek, beskär och konvertera bilder, förstora foton och ta bort bakgrunder med AI, gör ansikten oigenkännliga och rensa platsdata: 15 bildverktyg i en skrivbordsapp. Dina foton behandlas på den här datorn och laddas aldrig upp.</p>
+		<p xml:lang="pl">Image 15-in-1 to wszechstronny edytor i konwerter obrazów. Kompresuj, zmieniaj rozmiar, przycinaj i konwertuj obrazy, powiększaj zdjęcia i usuwaj tło za pomocą AI, rozmywaj twarze i usuwaj dane o lokalizacji – 15 narzędzi do obrazów w jednej aplikacji na komputer. Twoje zdjęcia są przetwarzane na tym komputerze i nigdy nie są wysyłane.</p>
+		<p xml:lang="ru">Image 15-in-1 — универсальный редактор и конвертер изображений. Сжимайте, изменяйте размер, обрезайте и конвертируйте изображения, увеличивайте фото и удаляйте фон с помощью ИИ, размывайте лица и удаляйте данные о местоположении — 15 инструментов для изображений в одном приложении для компьютера. Ваши фото обрабатываются на этом компьютере и никуда не загружаются.</p>
+		<p xml:lang="uk">Image 15-in-1 — універсальний редактор і конвертер зображень. Стискайте, змінюйте розмір, обрізайте й конвертуйте зображення, збільшуйте фото та видаляйте фон за допомогою ШІ, розмивайте обличчя й видаляйте дані про місцезнаходження — 15 інструментів для зображень в одному застосунку для комп’ютера. Ваші фото обробляються на цьому комп’ютері й ніколи не вивантажуються.</p>
+		<p xml:lang="tr">Image 15-in-1, hepsi bir arada bir görüntü düzenleyici ve dönüştürücüdür. Görüntüleri sıkıştırın, yeniden boyutlandırın, kırpın ve dönüştürün, yapay zekâ ile fotoğrafları büyütün ve arka planı kaldırın, yüzleri bulanıklaştırın ve konum verilerini silin: tek bir masaüstü uygulamasında 15 görüntü aracı. Fotoğraflarınız bu bilgisayarda işlenir ve asla yüklenmez.</p>
+		<p xml:lang="id">Image 15-in-1 adalah editor dan konverter gambar serba ada. Kompres, ubah ukuran, potong, dan konversi gambar, perbesar foto dan hapus latar belakang dengan AI, buramkan wajah, dan hapus data lokasi: 15 alat gambar dalam satu aplikasi desktop. Foto Anda diproses di komputer ini dan tidak pernah diunggah.</p>
+		<p xml:lang="vi">Image 15-in-1 là trình chỉnh sửa và chuyển đổi ảnh tất cả trong một. Nén, đổi kích thước, cắt và chuyển đổi ảnh, phóng to ảnh và xóa phông nền bằng AI, làm mờ khuôn mặt và xóa dữ liệu vị trí: 15 công cụ ảnh trong một ứng dụng máy tính. Ảnh của bạn được xử lý trên máy tính này và không bao giờ được tải lên.</p>
+		<p xml:lang="hi">Image 15-in-1 एक ऑल-इन-वन इमेज एडिटर और कन्वर्टर है। इमेज को कंप्रेस करें, उनका आकार बदलें, क्रॉप करें और बदलें, AI से फ़ोटो बड़ी करें और बैकग्राउंड हटाएँ, चेहरे धुंधले करें और लोकेशन डेटा मिटाएँ – एक ही डेस्कटॉप ऐप में 15 इमेज टूल। आपकी फ़ोटो इसी कंप्यूटर पर प्रोसेस होती हैं और कभी अपलोड नहीं होतीं।</p>
+		<p xml:lang="ja">Image 15-in-1 はオールインワンの画像編集・変換アプリです。画像の圧縮・サイズ変更・切り抜き・変換、AI による写真の高解像度化と背景の削除、顔のぼかし、位置情報の削除ができる 15 の画像ツールを 1 つのデスクトップアプリにまとめました。写真はこのコンピューター上で処理され、アップロードされることはありません。</p>
+		<p xml:lang="ko">Image 15-in-1은 올인원 이미지 편집기 겸 변환기입니다. 이미지 압축, 크기 조정, 자르기, 변환, AI로 사진 확대와 배경 제거, 얼굴 흐림, 위치 정보 삭제까지 15가지 이미지 도구를 하나의 데스크톱 앱에 담았습니다. 사진은 이 컴퓨터에서 처리되며 업로드되지 않습니다.</p>
+		<p xml:lang="zh_CN">Image 15-in-1 是一款一体化的图片编辑器和转换器。压缩、调整大小、裁剪和转换图片，用 AI 放大照片和去除背景，模糊人脸并清除位置信息——15 个图片工具集于一个桌面应用。您的照片在这台电脑上处理，绝不会上传。</p>
+		<p xml:lang="th">Image 15-in-1 คือโปรแกรมแก้ไขและแปลงภาพแบบครบในที่เดียว บีบอัด ปรับขนาด ครอบตัด และแปลงภาพ ขยายภาพและลบพื้นหลังด้วย AI เบลอใบหน้า และลบข้อมูลตำแหน่ง — เครื่องมือภาพ 15 อย่างในแอปเดสก์ท็อปเดียว รูปภาพของคุณประมวลผลบนคอมพิวเตอร์เครื่องนี้และไม่ถูกอัปโหลด</p>
+		<p xml:lang="ar">Image 15-in-1 محرر ومحوّل صور متكامل. اضغط الصور وغيّر حجمها واقتصها وحوّلها، وكبّر الصور وأزل الخلفية بالذكاء الاصطناعي، وموّه الوجوه، وامسح بيانات الموقع - 15 أداة للصور في تطبيق سطح مكتب واحد. تُعالَج صورك على هذا الكمبيوتر ولا تُرفع أبدًا.</p>
+		<p>Optimize</p>
+		<ul>
+			<li>Compress images: make JPG, PNG, SVG and GIF files smaller and keep the quality</li>
+			<li>Upscale images 2× or 4× with AI, sharp instead of blurry</li>
+			<li>Remove the background: cut out the subject and get a transparent PNG</li>
+		</ul>
+		<p>Edit</p>
+		<ul>
+			<li>Resize images by percent or pixels, many at once</li>
+			<li>Crop by pixels or by drawing the area on the picture</li>
+			<li>Rotate images – all of them, or only the portrait or landscape ones</li>
+			<li>Watermark images with text or a logo</li>
+		</ul>
+		<p>Convert</p>
+		<ul>
+			<li>PNG, GIF, TIFF, PSD, SVG, WEBP, HEIC and camera RAW to JPG</li>
+			<li>JPG to PNG or GIF, or several JPGs into an animated GIF</li>
+			<li>Images to PDF, and web pages (HTML) to JPG, PNG or SVG</li>
+		</ul>
+		<p>Create and protect</p>
+		<ul>
+			<li>Photo editor: text, effects, frames, stickers and colour adjustments</li>
+			<li>Meme generator: top and bottom captions on any picture</li>
+			<li>Blur faces automatically, or any area you mark</li>
+			<li>Remove metadata: strip the GPS location, camera and dates before you share a photo</li>
+		</ul>
+		<p>Works offline – the AI models come with the app – with no sign-up and no watermarks on your images. Available in 20 languages, with light and dark themes and touchscreen support. Free plan: 3 tasks a day; PRO removes the limits with a one-time payment.</p>
+	</description>
+	<launchable type="desktop-id">com.warlordsoftwares.image-15-in-1.desktop</launchable>
+	<categories>
+		<category>Graphics</category>
+		<category>Photography</category>
+	</categories>
+	<keywords>
+		<keyword>image</keyword>
+		<keyword>photo</keyword>
+		<keyword>image editor</keyword>
+		<keyword>image converter</keyword>
+		<keyword>photo editor</keyword>
+		<keyword>compress image</keyword>
+		<keyword>reduce image size</keyword>
+		<keyword>resize image</keyword>
+		<keyword>bulk resize</keyword>
+		<keyword>crop image</keyword>
+		<keyword>rotate image</keyword>
+		<keyword>convert to jpg</keyword>
+		<keyword>png to jpg</keyword>
+		<keyword>heic to jpg</keyword>
+		<keyword>webp to jpg</keyword>
+		<keyword>raw to jpg</keyword>
+		<keyword>jpg to png</keyword>
+		<keyword>gif maker</keyword>
+		<keyword>image to pdf</keyword>
+		<keyword>jpg to pdf</keyword>
+		<keyword>html to image</keyword>
+		<keyword>webpage screenshot</keyword>
+		<keyword>upscale image</keyword>
+		<keyword>ai upscaler</keyword>
+		<keyword>enhance photo</keyword>
+		<keyword>remove background</keyword>
+		<keyword>background remover</keyword>
+		<keyword>transparent png</keyword>
+		<keyword>blur face</keyword>
+		<keyword>watermark</keyword>
+		<keyword>meme generator</keyword>
+		<keyword>remove metadata</keyword>
+		<keyword>exif</keyword>
+		<keyword>gps</keyword>
+		<keyword>heic</keyword>
+		<keyword>webp</keyword>
+		<keyword>offline</keyword>
+		<keyword>image tools</keyword>
+	</keywords>
+	<provides>
+		<mediatype>image/jpeg</mediatype>
+		<mediatype>image/png</mediatype>
+		<mediatype>image/gif</mediatype>
+		<mediatype>image/webp</mediatype>
+		<mediatype>image/bmp</mediatype>
+		<mediatype>image/tiff</mediatype>
+		<mediatype>image/svg+xml</mediatype>
+		<mediatype>image/heic</mediatype>
+		<mediatype>image/heif</mediatype>
+		<mediatype>image/avif</mediatype>
+	</provides>
+	<screenshots>
+		<screenshot type="default">
+			<caption>Every image tool in one app</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/IMAGE-15-IN-1/main/share/screenshots/window/1_tools.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>Compress, resize and convert many images at once</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/IMAGE-15-IN-1/main/share/screenshots/window/2_batch.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>Edit photos with text, effects and frames</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/IMAGE-15-IN-1/main/share/screenshots/window/3_edit.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>Convert HEIC, RAW, WEBP and more</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/IMAGE-15-IN-1/main/share/screenshots/window/4_convert.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>Works offline, in light or dark</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/IMAGE-15-IN-1/main/share/screenshots/window/5_private.png</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://warlordsoftwares.com/apps/linux-apps/</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/IMAGE-15-IN-1</url>
+	<url type="bugtracker">https://github.com/rishabh3354/IMAGE-15-IN-1/issues</url>
+	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
+	<url type="donation">https://paypal.me/TechRishabh/10</url>
+	<update_contact>contact@warlordsoftwares.com</update_contact>
+	<content_rating type="oars-1.1" />
+	<recommends>
+		<display_length compare="ge">768</display_length>
+	</recommends>
+	<supports>
+		<control>pointing</control>
+		<control>keyboard</control>
+		<control>touch</control>
+	</supports>
+	<releases>
+		<release version="2026.11.19" date="2026-11-19">
+			<description>
+				<p>First release: 15 image tools in one desktop app, in 20 languages.</p>
+				<ul>
+					<li>Compress, resize, crop, rotate and watermark images, many at once</li>
+					<li>Convert HEIC, RAW, WEBP, PNG and more to JPG, JPG to PNG or GIF, images to PDF and web pages to images</li>
+					<li>Upscale photos, remove backgrounds and blur faces with AI that runs on your computer</li>
+					<li>Photo editor, meme generator and metadata remover; light and dark themes; everything works offline</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
+</component>

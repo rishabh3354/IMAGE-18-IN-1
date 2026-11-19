@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Image 15-in-1
+GenericName=Image Tools
+Comment=Compress, resize, convert, upscale and edit images offline
+Exec=image15in1 %F
+Icon=com.warlordsoftwares.image-15-in-1
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=image15in1
+Keywords=image;photo;compress image;resize image;crop;convert to jpg;heic to jpg;upscale;remove background;blur face;watermark;meme;exif;
+Categories=Graphics;Photography;Qt;
+MimeType=image/jpeg;image/png;image/gif;image/webp;image/bmp;image/tiff;image/svg+xml;image/heic;image/heif;image/avif;
