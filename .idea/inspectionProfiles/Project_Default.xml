@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="PyQt5" />
+          <option value="PyQtWebEngine" />
+          <option value="Pillow" />
+          <option value="pillow-heif" />
+          <option value="rawpy" />
+          <option value="opencv-python-headless" />
+          <option value="numpy" />
+          <option value="pypdfium2" />
+          <option value="reportlab" />
+          <option value="requests" />
+          <option value="pycryptodome" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="djangorestframework" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

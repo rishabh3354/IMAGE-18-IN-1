@@ -1,43 +1,48 @@
-name: image-15-in-1
+name: image-18-in-1
 base: core22
 version: '2026.11.19'
-title: Image 15-in-1 - Image Editor & Converter
-summary: Compress, resize, convert, upscale and edit images - offline photo toolkit
+title: Image 18-in-1 - Image Editor & Converter
+summary: Compress, resize, convert, remove backgrounds and edit photos - offline
 description: |
-  **Image 15-in-1 is an all-in-one image editor and image converter for Linux.** Compress images, resize photos in bulk, crop, rotate, convert HEIC, RAW, WEBP and PNG to JPG, upscale pictures with AI, remove backgrounds and blur faces - 15 image tools in one desktop app. Everything runs on your own computer, even offline: your photos are processed on this computer and never uploaded.
+  **Image 18-in-1 is an all-in-one image editor, photo editor and image converter for Linux.** Compress images to an exact size in KB, resize photos in bulk, convert HEIC, RAW, WEBP and PNG to JPG, remove backgrounds and upscale pictures with AI, make passport photos and photo collages, and blur faces - 18 image tools in one desktop app. Everything runs on your own computer, even offline: your photos are never uploaded.
 
   **Optimize images**
-  - Compress image: make JPG, PNG, SVG and GIF files smaller while keeping the quality
+  - Compress image: make JPG, PNG, SVG and GIF files smaller while keeping the quality - or get each one just under a size you choose, like 50 KB or 100 KB for an online form
   - Upscale image: enlarge pictures 2× or 4× with AI (Real-ESRGAN), sharp instead of blurry
-  - Remove background: cut out the subject with AI and get a transparent PNG
+  - Remove background: cut out the subject with AI for a transparent PNG, or put it on white or any colour
 
   **Edit images**
-  - Resize image by percent or pixels, many photos at once
-  - Crop image by pixels or by drawing the area on the picture
+  - Resize image by percent, by pixels or to social media sizes (Instagram post and story, Facebook and X covers, YouTube thumbnail and more), many photos at once
+  - Crop image by pixels, by drawing the area on the picture, or to a social media size
   - Rotate images - all of them, or only the portrait or landscape ones
   - Watermark image with text or a logo, in the font, transparency and position you choose
 
   **Convert images**
+  - Convert any image to any format: JPG, PNG, WEBP, HEIC, AVIF, GIF, TIFF, ICO and PDF
   - Convert to JPG: PNG, GIF, TIFF, PSD, SVG, WEBP, HEIC (iPhone photos) and camera RAW (CR2, NEF, ARW, DNG...)
   - Convert from JPG to PNG or GIF, or join JPGs into an animated GIF
   - Image to PDF: put photos into one PDF, or one PDF each
   - HTML to image: save a whole web page as a JPG, PNG or SVG
 
-  **Create and protect**
-  - Photo editor: text, effects, frames, stickers and colour adjustments
+  **Create**
+  - Photo editor: filters, effects, text, stickers, shapes, drawing, frames and colour adjustments, with a live preview
+  - Passport photo: passport and visa sizes for 30+ countries (US, UK, India, Schengen and more) - the face is placed for you, the background turns white, and a sheet of copies is ready to print
+  - Collage maker: 10 layouts, from grids to polaroids and film strips - drag and zoom each photo in its frame
   - Meme generator: top and bottom captions on any picture
+
+  **Protect your privacy**
   - Blur face: find faces with AI and blur them, or blur any area you mark
   - Remove metadata: strip EXIF data - GPS location, camera, dates - before you share a photo
 
-  **Why Image 15-in-1**
+  **Why Image 18-in-1**
   - Private: works offline, no uploads, no sign-up and no e-mail needed
   - The AI models come with the app - nothing to download, nothing sent to a server
   - No watermarks on your images
   - 20 languages, light and dark themes, touchscreen support
-  - Free plan: 3 tasks a day. PRO: unlimited, one-time payment, no subscription
+  - Free plan: compress, resize, crop, convert and the other everyday tools are unlimited, with 3 AI runs a day. PRO: no limits, one-time payment, no subscription
 website: https://warlordsoftwares.com/apps/linux-apps/
 contact: https://warlordsoftwares.com/contact-us/
-issues: https://github.com/rishabh3354/IMAGE-15-IN-1/issues
+issues: https://github.com/rishabh3354/IMAGE-18-IN-1/issues
 donation: https://paypal.me/TechRishabh/10
 license: Proprietary
 grade: stable
@@ -49,12 +54,12 @@ architectures:
   - build-on: [amd64]
 
 environment:
-  SNAP_DESKTOP_RUNTIME: $SNAP/image-15-in-1-runtime
+  SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22-lite
 
 apps:
-  image-15-in-1:
-    command: bin/desktop-launch $SNAP/bin/image-15-in-1
-    desktop: image-15-in-1.desktop
+  image-18-in-1:
+    command: bin/desktop-launch $SNAP/bin/image-18-in-1
+    desktop: image-18-in-1.desktop
     environment:
       APP_PLATFORM: "SNAP"
       # Chromium's sandbox can't run inside a strict snap (HTML to image)
@@ -86,10 +91,10 @@ plugs:
     interface: content
     target: $SNAP/data-dir/sounds
     default-provider: gtk-common-themes
-  image-15-in-1-runtime:
+  content-snap-core22-lite:
     interface: content
-    target: $SNAP/image-15-in-1-runtime
-    default-provider: image-15-in-1-runtime
+    target: $SNAP/content-snap-core22-lite
+    default-provider: content-snap-core22-lite
 
 parts:
   snap-launcher:
@@ -97,20 +102,20 @@ parts:
     source: snap_launcher/
     override-build: |
       craftctl default
-      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/image-15-in-1.desktop
+      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/image-18-in-1.desktop
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
-      cp -rf ${SNAPCRAFT_PART_SRC}/image-15-in-1.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/image-15-in-1.desktop
+      cp -rf ${SNAPCRAFT_PART_SRC}/image-18-in-1.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/image-18-in-1.desktop
 
-  image15in1-binary:
+  image18in1-binary:
     plugin: dump
-    source: https://warlordsoftwares.com/static/app_builds/snap/Image-15-in-1.tar.gz
+    source: https://warlordsoftwares.com/static/app_builds/snap/Image-18-in-1.tar.gz
     source-type: tar
     override-build: |
-      # the archive holds the PyInstaller folder Image-15-in-1/ (snapcraft may or may not unwrap it), the AI
+      # the archive holds the PyInstaller folder Image-18-in-1/ (snapcraft may or may not unwrap it), the AI
       # models included (_internal/models)
       SRC=.
-      [ -d Image-15-in-1 ] && SRC=Image-15-in-1
-      mkdir -p ${SNAPCRAFT_PART_INSTALL}/opt/image-15-in-1 ${SNAPCRAFT_PART_INSTALL}/bin
-      cp -a ${SRC}/. ${SNAPCRAFT_PART_INSTALL}/opt/image-15-in-1/
-      chmod +x ${SNAPCRAFT_PART_INSTALL}/opt/image-15-in-1/Image-15-in-1
-      ln -sf ../opt/image-15-in-1/Image-15-in-1 ${SNAPCRAFT_PART_INSTALL}/bin/image-15-in-1
+      [ -d Image-18-in-1 ] && SRC=Image-18-in-1
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/opt/image-18-in-1 ${SNAPCRAFT_PART_INSTALL}/bin
+      cp -a ${SRC}/. ${SNAPCRAFT_PART_INSTALL}/opt/image-18-in-1/
+      chmod +x ${SNAPCRAFT_PART_INSTALL}/opt/image-18-in-1/Image-18-in-1
+      ln -sf ../opt/image-18-in-1/Image-18-in-1 ${SNAPCRAFT_PART_INSTALL}/bin/image-18-in-1
