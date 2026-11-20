@@ -303,3 +303,4 @@ Pop!_OS, elementary OS, Zorin OS, Manjaro, Arch Linux and openSUSE.
 (BSD-3-Clause) and U²-Net (Apache-2.0). iLoveIMG, TinyPNG, remove.bg, Instagram, Facebook, X and YouTube are
 trademarks of their respective owners; Image 18-in-1 is not affiliated with them. Photos in the screenshots are
 from Unsplash.</sub>
+
