@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://snapcraft.io/image-18-in-1"><img src="https://snapcraft.io/image-18-in-1/badge.svg" alt="Image 18-in-1 on the Snap Store"></a>
+  <a href="https://snapcraft.io/img-18-in-1"><img src="https://snapcraft.io/img-18-in-1/badge.svg" alt="Image 18-in-1 on the Snap Store"></a>
   <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/IMAGE-18-IN-1?label=release" alt="Latest release"></a>
   <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases"><img src="https://img.shields.io/github/downloads/rishabh3354/IMAGE-18-IN-1/total?label=downloads" alt="Total downloads"></a>
   <img src="https://img.shields.io/badge/works-offline-2ea44f" alt="Works offline">
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://snapcraft.io/image-18-in-1"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get Image 18-in-1 from the Snap Store"></a>&nbsp;
+  <a href="https://snapcraft.io/img-18-in-1"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get Image 18-in-1 from the Snap Store"></a>&nbsp;
   <a href="https://flathub.org/apps/com.warlordsoftwares.image-18-in-1"><img src="https://flathub.org/api/badge?locale=en" height="56" alt="Get Image 18-in-1 on Flathub"></a>&nbsp;
   <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the Image 18-in-1 AppImage for Linux"></a>
 </p>
@@ -104,7 +104,7 @@ convert **HEIC to JPG**, **WEBP to PNG** and camera RAW, **remove backgrounds** 
 ### Snap (Ubuntu and most distributions)
 
 ```bash
-sudo snap install image-18-in-1
+sudo snap install img-18-in-1
 ```
 
 Or open **Ubuntu Software** / **App Center**, search for *Image 18-in-1* and click Install.
@@ -289,7 +289,7 @@ Pop!_OS, elementary OS, Zorin OS, Manjaro, Arch Linux and openSUSE.
 - Found a bug or want a new tool? [Open an issue](https://github.com/rishabh3354/IMAGE-18-IN-1/issues).
 - Questions about PRO or your account: [contact us](https://warlordsoftwares.com/contact-us/).
 - If Image 18-in-1 saves you time, please **⭐ star this repository** and leave a review on the
-  [Snap Store](https://snapcraft.io/image-18-in-1). It helps other people find the app.
+  [Snap Store](https://snapcraft.io/img-18-in-1). It helps other people find the app.
 
 ---
 

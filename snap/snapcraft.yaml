@@ -1,4 +1,4 @@
-name: image-18-in-1
+name: img-18-in-1
 base: core22
 version: '2026.11.19'
 title: Image 18-in-1 - Image Editor & Converter
@@ -57,7 +57,7 @@ environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22-lite
 
 apps:
-  image-18-in-1:
+  img-18-in-1:
     command: bin/desktop-launch $SNAP/bin/image-18-in-1
     desktop: image-18-in-1.desktop
     environment:
