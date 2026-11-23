@@ -12,9 +12,6 @@
 
 <p align="center">
   <a href="https://snapcraft.io/img-18-in-1"><img src="https://snapcraft.io/img-18-in-1/badge.svg" alt="Image 18-in-1 on the Snap Store"></a>
-  <a href="https://flathub.org/apps/com.warlordsoftwares.image-18-in-1"><img src="https://img.shields.io/flathub/v/com.warlordsoftwares.image-18-in-1?label=flathub&logo=flathub&logoColor=white&color=4a86cf" alt="Image 18-in-1 on Flathub"></a>
-  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1-x86_64.AppImage"><img src="https://img.shields.io/github/v/release/rishabh3354/IMAGE-18-IN-1?label=appimage&logo=linux&logoColor=white&color=1F2937" alt="Download the Image 18-in-1 AppImage for Linux"></a>
-  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/IMAGE-18-IN-1?label=windows&logo=windows&logoColor=white&color=0078D6" alt="Image 18-in-1 for Windows 10 and 11"></a>
   <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/IMAGE-18-IN-1?label=release" alt="Latest release"></a>
   <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases"><img src="https://img.shields.io/github/downloads/rishabh3354/IMAGE-18-IN-1/total?label=downloads" alt="Total downloads"></a>
   <img src="https://img.shields.io/badge/works-offline-2ea44f" alt="Works offline">
@@ -24,14 +21,11 @@
 
 <p align="center">
   <a href="https://snapcraft.io/img-18-in-1"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get Image 18-in-1 from the Snap Store"></a>&nbsp;
-
-[//]: # (  <a href="https://flathub.org/apps/com.warlordsoftwares.image-18-in-1"><img src="https://flathub.org/api/badge?locale=en" height="56" alt="Get Image 18-in-1 on Flathub"></a>&nbsp;)
-[//]: # (  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the Image 18-in-1 AppImage for Linux"></a>)
-</p>
-
-<p align="center">
-
-[//]: # (  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1.exe"><img src="https://img.shields.io/badge/Windows-Download%20.exe-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="56" alt="Download the Image 18-in-1 Windows installer &#40;.exe&#41;"></a>)
+  <!-- Flathub: uncomment once the app is live on Flathub
+  <a href="https://flathub.org/apps/com.warlordsoftwares.image-18-in-1"><img src="https://flathub.org/api/badge?locale=en" height="56" alt="Get Image 18-in-1 on Flathub"></a>&nbsp;
+  -->
+  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1-x86_64.AppImage"><img src="share/badges/appimage-black.svg" height="56" alt="Download the Image 18-in-1 AppImage for Linux"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1.exe"><img src="share/badges/windows-black.svg" height="56" alt="Download the Image 18-in-1 installer for Windows 10 and 11 (.exe)"></a>
 </p>
 
 <p align="center">
