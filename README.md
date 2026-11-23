@@ -131,6 +131,14 @@ chmod +x Image-18-in-1-x86_64.AppImage
 ./Image-18-in-1-x86_64.AppImage
 ```
 
+If it says **"Cannot mount AppImage, please check your FUSE setup"** (Ubuntu 22.04 and newer don't include
+FUSE 2), install it - `sudo apt install libfuse2t64` on Ubuntu 24.04 and newer, `sudo apt install libfuse2` on
+Ubuntu 22.04 - or start the AppImage without FUSE:
+
+```bash
+APPIMAGE_EXTRACT_AND_RUN=1 ./Image-18-in-1-x86_64.AppImage
+```
+
 Every version (Snap, Flatpak and AppImage) includes the AI models, so all 18 tools work from the first start.
 
 ## Install on Windows
