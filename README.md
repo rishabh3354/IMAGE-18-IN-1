@@ -108,16 +108,20 @@ sudo snap install img-18-in-1
 
 Or open **Ubuntu Software** / **App Center**, search for *Image 18-in-1* and click Install.
 
+<!-- Flatpak: uncomment once the app is live on Flathub (and add Flatpak back to the two lines that list
+     Snap and AppImage: "Every version (...) includes the AI models" and the "Which Linux distributions" answer)
 ### Flatpak (Fedora, Linux Mint, Pop!_OS, elementary OS, Arch and more)
 
 ```bash
 flatpak install flathub com.warlordsoftwares.image-18-in-1
 ```
+-->
 
 ### AppImage (any Linux, no installation)
 
 1. **[Download Image-18-in-1-x86_64.AppImage](https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1-x86_64.AppImage)**
-   (or pick a version from [all releases](https://github.com/rishabh3354/IMAGE-18-IN-1/releases)).
+   (about 430 MB, AI models included), or pick a version from
+   [all releases](https://github.com/rishabh3354/IMAGE-18-IN-1/releases).
 2. Make it executable and run it:
 
 ```bash
@@ -136,14 +140,15 @@ Ubuntu 22.04 - or start the AppImage without FUSE:
 APPIMAGE_EXTRACT_AND_RUN=1 ./Image-18-in-1-x86_64.AppImage
 ```
 
-Every version (Snap, Flatpak and AppImage) includes the AI models, so all 18 tools work from the first start.
+Every version (Snap and AppImage) includes the AI models, so all 18 tools work from the first start.
 
 ## Install on Windows
 
 Image 18-in-1 runs on **Windows 10 and Windows 11** (64-bit).
 
 1. **[Download Image-18-in-1.exe](https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1.exe)**
-   (or pick a version from [all releases](https://github.com/rishabh3354/IMAGE-18-IN-1/releases)).
+   (about 160 MB, AI models included), or pick a version from
+   [all releases](https://github.com/rishabh3354/IMAGE-18-IN-1/releases).
 2. Run it and follow the setup steps. Image 18-in-1 appears in the Start menu, and you can add it to
    "Open with" for JPG, PNG, HEIC and other images.
 
@@ -288,7 +293,7 @@ you get from a plain resize.
 
 ### Which Linux distributions are supported?
 
-Any 64-bit (x86_64) Linux with Snap, Flatpak or AppImage support, including Ubuntu, Fedora, Debian, Linux Mint,
+Any 64-bit (x86_64) Linux with Snap or AppImage support, including Ubuntu, Fedora, Debian, Linux Mint,
 Pop!_OS, elementary OS, Zorin OS, Manjaro, Arch Linux and openSUSE.
 
 ## Support and feedback
