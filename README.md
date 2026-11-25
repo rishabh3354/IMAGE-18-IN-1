@@ -5,7 +5,7 @@
 
 <p align="center">
   <b>18 image tools in one free desktop app. Compress images to any size in KB, resize photos in bulk, convert HEIC
-  to JPG, remove backgrounds with AI, make passport photos and photo collages - on your own computer.</b><br>
+  to JPG, remove backgrounds with AI, make passport photos and photo collages, all on your own computer.</b><br>
   No uploads, no sign-up, no watermarks. Works offline on Windows 10 and 11, Ubuntu, Fedora, Debian, Linux Mint,
   Arch and any other Linux.
 </p>
@@ -32,11 +32,11 @@
   <img src="share/screenshots/1_tools.png" alt="Image 18-in-1 home screen with all 18 image tools: compress, resize, crop, convert, remove background, passport photo, collage, upscale, blur face and more" width="100%">
 </p>
 
-**Image 18-in-1** is an all-in-one **image editor, photo editor and image converter for
-Linux and Windows**. It does what online image sites do, but every photo stays on your computer:
-**compress images** to an exact size like 50 KB, **resize photos in bulk** or to **Instagram and YouTube sizes**,
-convert **HEIC to JPG**, **WEBP to PNG** and camera RAW, **remove backgrounds** and **upscale pictures** with AI, make
-**passport size photos** and **photo collages**, blur faces and strip GPS data - all without an internet connection.
+Image 18-in-1 is an image editor, photo editor and image converter for Linux and Windows. It does what online
+image sites do, but every photo stays on your computer. You can compress images to an exact size like 50 KB,
+resize photos in bulk or to Instagram and YouTube sizes, convert HEIC to JPG, WEBP to PNG and camera RAW, remove
+backgrounds and upscale pictures with AI, make passport size photos and photo collages, blur faces and strip GPS
+data, all without an internet connection.
 
 ## Contents
 
@@ -58,7 +58,7 @@ convert **HEIC to JPG**, **WEBP to PNG** and camera RAW, **remove backgrounds** 
   </tr>
   <tr>
     <td><b>Remove backgrounds in one click.</b> AI cut-outs made on your computer: a transparent PNG, or the subject on white or any colour.</td>
-    <td><b>Photo collages in seconds.</b> 10 layouts, from grids to polaroids and film strips. Drag and zoom each photo in its frame.</td>
+    <td><b>Photo collages.</b> 10 layouts, from grids to polaroids and film strips. Drag and zoom each photo in its frame.</td>
   </tr>
   <tr>
     <td><img src="share/screenshots/6_passport.png" alt="Passport size photo maker: US, UK, India and Schengen visa photo sizes with a white background and a print sheet"></td>
@@ -74,7 +74,7 @@ convert **HEIC to JPG**, **WEBP to PNG** and camera RAW, **remove backgrounds** 
   </tr>
   <tr>
     <td><b>Edit photos in a few clicks.</b> Filters, effects, text, stickers, shapes, drawing, frames and colour adjustments, with a live preview.</td>
-    <td><b>The perfect size for every social post.</b> Instagram posts and stories, Facebook and X covers, YouTube thumbnails - exact pixels, no stretching.</td>
+    <td><b>Social media sizes.</b> Instagram posts and stories, Facebook and X covers and YouTube thumbnails, at the exact pixel size with no stretching.</td>
   </tr>
 </table>
 
@@ -83,19 +83,19 @@ convert **HEIC to JPG**, **WEBP to PNG** and camera RAW, **remove backgrounds** 
 | | Online image websites | Image 18-in-1 |
 | --- | --- | --- |
 | Your photos | Uploaded to someone else's server | Never leave your computer |
-| Internet | Needed for every file | Not needed - every tool works offline |
+| Internet | Needed for every file | Not needed: every tool works offline |
 | AI (background removal, upscaling) | Credits, sign-up or a monthly plan | Built in, runs on your computer |
 | Big files and many files | Size limits, queues, daily caps | As fast as your own computer |
 | Watermarks and ads | Often | Never |
 
-- **Private by design.** Safe for family pictures, ID and passport photos, screenshots of documents and anything
-  else you wouldn't put on a website.
-- **AI that runs on your computer.** Upscaling (Real-ESRGAN), background removal (U²-Net) and face finding (YuNet)
-  come with the app. Nothing to download, no cloud, no account, no credits.
-- **18 tools, one app.** No more switching between an image compressor, a resizer, a HEIC converter, an online
-  background remover, a passport photo website and a collage app. Every tool has the same simple flow: choose
-  images, pick options, done.
-- **Easy to use.** Drag and drop images, see a live preview, light and dark themes, touchscreen support, and an
+- Your photos stay on your computer, so it's safe for family pictures, ID and passport photos, screenshots of
+  documents and anything else you wouldn't put on a website.
+- The AI models for upscaling (Real-ESRGAN), background removal (U²-Net) and face finding (YuNet) come with the
+  app and run on your computer. There is nothing extra to download, no cloud, no account and no credits.
+- One app has 18 tools, so you don't need a separate image compressor, resizer, HEIC converter, online background
+  remover, passport photo website and collage app. Every tool works the same way: choose images, pick options,
+  save.
+- Drag and drop images, see a live preview, switch between light and dark themes, use a touchscreen, and run the
   interface in 20 languages.
 
 ## Install on Linux
@@ -133,8 +133,8 @@ chmod +x Image-18-in-1-x86_64.AppImage
 ```
 
 If it says **"Cannot mount AppImage, please check your FUSE setup"** (Ubuntu 22.04 and newer don't include
-FUSE 2), install it - `sudo apt install libfuse2t64` on Ubuntu 24.04 and newer, `sudo apt install libfuse2` on
-Ubuntu 22.04 - or start the AppImage without FUSE:
+FUSE 2), install it (`sudo apt install libfuse2t64` on Ubuntu 24.04 and newer, `sudo apt install libfuse2` on
+Ubuntu 22.04), or start the AppImage without FUSE:
 
 ```bash
 APPIMAGE_EXTRACT_AND_RUN=1 ./Image-18-in-1-x86_64.AppImage
@@ -144,7 +144,7 @@ Every version (Snap and AppImage) includes the AI models, so all 18 tools work f
 
 ## Install on Windows
 
-Image 18-in-1 runs on **Windows 10 and Windows 11** (64-bit).
+Image 18-in-1 runs on 64-bit Windows 10 and Windows 11.
 
 1. **[Download Image-18-in-1.exe](https://github.com/rishabh3354/IMAGE-18-IN-1/releases/latest/download/Image-18-in-1.exe)**
    (about 160 MB, AI models included), or pick a version from
@@ -163,7 +163,7 @@ away.
 
 | Tool | What it does |
 | --- | --- |
-| **Compress image** | Make JPG, PNG, SVG and GIF files smaller while keeping the quality: extreme, recommended or less compression - or each file just under a size you choose, like 20 KB, 50 KB or 100 KB for an online form. |
+| **Compress image** | Make JPG, PNG, SVG and GIF files smaller while keeping the quality: extreme, recommended or less compression, or each file just under a size you choose, like 20 KB, 50 KB or 100 KB for an online form. |
 | **Upscale image** | Enlarge photos 2× or 4× with AI, sharp instead of blurry. |
 | **Remove background** | Find the main subject with AI and cut out the background: a transparent PNG, or the subject on white or any colour. |
 
@@ -171,7 +171,7 @@ away.
 
 | Tool | What it does |
 | --- | --- |
-| **Resize image** | Set a new size by percentage or exact pixels, or pick a social media size (Instagram post and story, Facebook and X covers, YouTube thumbnail and more) and fill the frame by cropping, a blurred copy or a colour - for many images at once. |
+| **Resize image** | Set a new size by percentage or exact pixels, or pick a social media size (Instagram post and story, Facebook and X covers, YouTube thumbnail and more) and fill the frame by cropping, a blurred copy or a colour, for many images at once. |
 | **Crop image** | Cut out part of an image by pixels, by drawing the area on the picture, or to a social media size. |
 | **Rotate image** | Rotate many images at once, or only the portrait or landscape ones. |
 | **Watermark image** | Stamp text or a logo over your images, with the font, transparency and position you choose, or repeat it over the whole picture. |
@@ -192,7 +192,7 @@ away.
 | --- | --- |
 | **Photo editor** | Adjust light and colour, add filters, effects, text, stickers, shapes, drawing and frames, crop and turn, with undo. |
 | **Passport photo** | Make a passport or visa photo in the right size for 30+ countries (US, UK, India, Canada, Australia, Schengen and more): the face is placed for you, the background turns white or light blue, and a sheet of copies is ready to print on 10 × 15 cm (4 × 6 in) photo paper. |
-| **Collage** | Join photos in 10 layouts - grid, big + side, mosaic, polaroids, film strip and more - in any shape (square, 4:5 post, 9:16 story, 16:9), with spacing, borders and round corners. Drag and zoom each photo in its frame. |
+| **Collage** | Join photos in 10 layouts (grid, big + side, mosaic, polaroids, film strip and more) in any shape (square, 4:5 post, 9:16 story, 16:9), with spacing, borders and round corners. Drag and zoom each photo in its frame. |
 | **Meme generator** | Put top and bottom captions on any picture to make your own meme. |
 
 ### Security
@@ -228,13 +228,13 @@ computer's language, and you can change it in Settings.
 
 ### Is Image 18-in-1 free?
 
-Yes. Every tool is in the Free plan, and the everyday tools - compress, resize, crop, convert, rotate, watermark,
-photo editor and more - have no daily limit. The AI tools get 3 free runs a day. PRO removes every limit.
+Yes. Every tool is in the Free plan, and the everyday tools (compress, resize, crop, convert, rotate, watermark,
+photo editor and more) have no daily limit. The AI tools get 3 free runs a day. PRO removes every limit.
 
 ### Is Image 18-in-1 a good offline alternative to iLoveIMG, TinyPNG or remove.bg?
 
 Yes. It covers the same everyday tools (compress, resize, crop, convert, upscale, remove background, watermark)
-and adds passport photos and collages, as a desktop app - so your photos are never uploaded to someone else's
+and adds passport photos and collages. It's a desktop app, so your photos are never uploaded to someone else's
 server and you don't need an internet connection.
 
 ### Are my photos uploaded anywhere?
@@ -245,7 +245,7 @@ image, and only when you type a web address to capture.
 ### How do I compress an image to 50 KB or 100 KB?
 
 Choose **Compress image**, pick **Compress to a size**, type the size (for example 50 KB) and click Compress. Each
-image is saved just under that size - handy for exam, job and government forms that limit the file size.
+image is saved just under that size, which is what exam, job and government forms with a file size limit need.
 
 ### How do I compress images without losing quality?
 
@@ -261,7 +261,7 @@ for you; save the photo, or print the sheet of copies on 10 × 15 cm (4 × 6 in)
 
 ### How do I make a photo collage on Linux or Windows?
 
-Open **Collage**, drop in your photos and pick a layout - grid, big + side, mosaic, polaroids or film strip - and a
+Open **Collage**, drop in your photos and pick a layout (grid, big + side, mosaic, polaroids or film strip) and a
 shape such as square or a 9:16 story. Drag a photo to choose what shows, scroll to zoom, then save it as a JPG or
 PNG.
 
